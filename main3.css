@@ -37,6 +37,7 @@ body{
     top:6%;
     position:fixed;   /*baş kısmın sayfayı kaydırsak da üstte görünmesini sağlar.*/
     z-index: 1000;
+    margin-top: 1.5rem;
 }
 
 .icon1:hover{
@@ -125,3 +126,5 @@ a:active{
 .show{
     display: flex !important;
 }
+
+
