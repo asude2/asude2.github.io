@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+
+.baslik1{
+    font-style:inherit;
+    font-weight:100;
+    font-size: 2rem;
+    color:rgb(255, 255, 255);
+    letter-spacing: 0.3rem;
+    background-color: black; 
+    width: 100%;
+    position: relative;
+    top:1.6rem;
+}
+
+
+#iconA {
+    color:black;
+    margin-left:3rem;
+    margin-right:2rem;
+    font-weight: bold;
+    background:rgb(238, 67, 189);
+    padding:15px;
+    width:30px;
+    height:30px;
+    border-radius:20px;
+}
+
+.icon1{
+    color:rgb(234, 231, 237);
+    font-size:2rem;
+    position:absolute;    /*bu sayede iconu başlıktan bağımsız bir şekilde başlığın hizasına aldık.*/
+    right:4rem;
+    top:6%;
+    position:fixed;   /*baş kısmın sayfayı kaydırsak da üstte görünmesini sağlar.*/
+    z-index: 1000;
+}
+
+.icon1:hover{
+    opacity:0.6;
+}
+
+.icon1:active{
+    opacity:0.5;
+    font-size: 1.9em;
+}
+
+.baslik2{
+    padding-left:10rem;
+    padding-top:10rem;
+    opacity:0.4;
+    font-size:3rem;
+}
+
+.text1{
+    opacity:0.8;
+    padding-left:4rem;
+    font-size:1.8rem;
+    display:inline-block;
+    vertical-align: 10rem;
+    font-style:oblique;
+
+   
+}
+
+
+
+.image1{
+    width:300px;
+    height: auto;
+    border-radius: 10rem; 
+    position: relative;
+    bottom:8rem;
+    left:5rem;
+    border-bottom: rgb(211, 27, 187) solid 3px;
+}
+
+.span2{
+    font-style:oblique;
+    opacity: 0.8;
+}
+
+
+li{
+    position: relative;
+    top:2rem;
+    list-style-type:none;
+    align-items: center;
+}
+
+
+.baslik3{
+    padding-left:8rem;
+    padding-bottom:1rem;
+    padding-top:4rem;
+    letter-spacing: 2px;
+    font-style:unset;
+    font-weight:200;
+    border-bottom: 1px solid rgb(158, 146, 156);
+    
+}
+
+
+li a{
+    color:#ffffff;
+    display:inline;
+    padding:1rem;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+}
+
+
+a:hover{
+    opacity:0.7;
+}
+
+a:active{
+    opacity:0.4;
+}
+
+
+.show{
+    display: flex !important;
+}
