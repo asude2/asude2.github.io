@@ -1,27 +1,48 @@
 .baslik1{
     font-size: 1.5rem;
-    letter-spacing: 0.5px;
-    margin-top: 13px;
+    letter-spacing: 0.1px;
+    margin-top: 2rem;
+    
     
 }
 
 #iconA{
+    margin-left:1rem;
+    font-weight: bold;
     padding:5px;
-    margin-left: 1rem;
-    margin:10px;
+    width:30px;
+    height:30px;
+    border-radius:15px;
 }
 
 .icon1{
     font-size: 25px;
+    margin-top: 5px;
+    margin-top: 1.5rem;
 }
 
 
 .baslik3{
-   padding-left: 1px;
+   padding-left: 10px;
 }
 
 .li{
     padding:2rem
+}
+
+.baslik2{
+    display: flex;
+    margin-top: 3rem;
+    font-size: 40px;
+}
+
+.text1{
+    padding-left: 1rem;
+    font-size:25px ;
+    display: inline-block;
+    margin-top: 0;
+    
+    
 }
 
 
