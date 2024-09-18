@@ -31,7 +31,7 @@ p4.textContent="Contact Information";
 
 div.style.display = "flex";
 div.style.flexDirection = "column";
-div.style.top = "5rem"; 
+div.style.top = "7rem"; 
 div.style.right = "1rem"; 
 div.style.position="fixed"
 div.style.zIndex = "9999"; 
@@ -40,8 +40,7 @@ div.style.border="1px solid gray";
 div.style.borderRadius="50px"
 div.style.paddingRight="3rem";
 div.style.backgroundColor="rgb(26,26,26)";
-div.style.minHeight="350px"
-div.style.minWidth="300px"
+
 
 
 
@@ -152,15 +151,14 @@ const mediaQuery = window.matchMedia('(max-width: 500px)');
 function handleScreenSizeChange(event) {
     if (event.matches) {
         // Ekran genişliği 500px veya daha küçükse div'in genişliğini değiştir
-        div.style.width = "30%"; // Örneğin, genişliği %100 yap
+        div.style.width = "20%"; 
         div.style.paddingRight = "3rem"; // Sağ padding'i azalt
-        div.style.minWidth = "100px"; // Minimum genişliği küçült
         div.style.marginRight="10px";
-        div.style.marginTop="6rem";
         header2.style.padding="5rem";
         text1.style.marginRight="2rem"
-        image1.style.paddingTop="3rem"  
-        
+        div.style.minWidth="110px";
+        div.style.minHeight="380px"
+       
     } 
 }
 
@@ -168,6 +166,16 @@ function handleScreenSizeChange(event) {
 // Sayfa yüklendiğinde medya sorgusunun mevcut durumunu kontrol edin
 handleScreenSizeChange(mediaQuery);
 mediaQuery.addEventListener(handleScreenSizeChange);
+
+
+
+
+
+
+
+
+
+
 
 
 
