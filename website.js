@@ -40,6 +40,9 @@ div.style.border="1px solid gray";
 div.style.borderRadius="50px"
 div.style.paddingRight="3rem";
 div.style.backgroundColor="rgb(26,26,26)";
+div.style.minHeight="340px"
+div.style.minWidth="300px"
+div.style.width="30%"
 
 
 
@@ -68,6 +71,7 @@ paragraphs.forEach(p=>{
     p.style.letterSpacing="1px"
     p.style.fontSize="25px"
     p.style.width="100%"
+    p.style.overflow="auto";
     p.addEventListener('mouseover',()=>{
         p.style.color="white";
         p.style.backgroundColor="black"
@@ -157,7 +161,7 @@ function handleScreenSizeChange(event) {
         header2.style.padding="5rem";
         text1.style.marginRight="2rem"
         div.style.minWidth="110px";
-        div.style.minHeight="380px"
+        div.style.minHeight="480px"
        
     } 
 }
@@ -166,6 +170,14 @@ function handleScreenSizeChange(event) {
 // Sayfa yüklendiğinde medya sorgusunun mevcut durumunu kontrol edin
 handleScreenSizeChange(mediaQuery);
 mediaQuery.addEventListener(handleScreenSizeChange);
+
+
+
+
+
+
+
+
 
 
 
