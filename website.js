@@ -10,6 +10,7 @@ const input=document.createElement("input");
 const header2=document.querySelector(".baslik2");
 const text1=document.querySelector(".text1");
 const image1=document.querySelector(".image1")
+const header1=document.querySelector(".baslik1");
 
 div.appendChild(input)
 div.appendChild(p1)
@@ -162,6 +163,8 @@ function handleScreenSizeChange(event) {
         text1.style.marginRight="2rem"
         div.style.minWidth="110px";
         div.style.minHeight="480px"
+        header1.style.marginTop="1rem"
+        
        
     } 
 }
@@ -170,6 +173,13 @@ function handleScreenSizeChange(event) {
 // Sayfa yüklendiğinde medya sorgusunun mevcut durumunu kontrol edin
 handleScreenSizeChange(mediaQuery);
 mediaQuery.addEventListener(handleScreenSizeChange);
+
+
+
+
+
+
+
 
 
 
