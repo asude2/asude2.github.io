@@ -17,8 +17,6 @@
 
 .icon1{
     font-size: 25px;
-    margin-top: 5px;
-    margin-top: 1.5rem;
 }
 
 
@@ -41,8 +39,12 @@
     font-size:25px ;
     display: inline-block;
     margin-top: 0;
-    
-    
+}
+
+.image1{
+    position: relative;
+    left:1rem;
+    top:0.1px;
 }
 
 
