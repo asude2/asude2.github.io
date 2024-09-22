@@ -1,7 +1,7 @@
 .baslik1{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     letter-spacing: 0.1px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     
     
 }
@@ -16,7 +16,8 @@
 }
 
 .icon1{
-    font-size: 25px;
+    font-size: 20px;
+    margin-top: 0.8rem;
 }
 
 
@@ -30,22 +31,33 @@
 
 .baslik2{
     display: flex;
-    margin-top: 3rem;
     font-size: 40px;
+    position: relative;
+    right:5rem;
+    bottom:3rem;
 }
 
 .text1{
     padding-left: 1rem;
     font-size:25px ;
     display: inline-block;
-    margin-top: 0;
+    position:relative;
+    bottom:6rem
 }
 
 .image1{
     position: relative;
     left:1rem;
-    top:0.1px;
 }
+
+
+
+
+
+
+
+
+
 
 
 
