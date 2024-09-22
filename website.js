@@ -156,15 +156,13 @@ const mediaQuery = window.matchMedia('(max-width: 500px)');
 function handleScreenSizeChange(event) {
     if (event.matches) {
         // Ekran genişliği 500px veya daha küçükse div'in genişliğini değiştir
-        div.style.width = "80%"; 
+        div.style.width = "70%"; 
         div.style.paddingRight = "3rem"; // Sağ padding'i azalt
         div.style.marginRight="10px";
         header2.style.padding="5rem";
         text1.style.marginRight="2rem"
         div.style.minWidth="110px";
-        div.style.minHeight="480px"
         header1.style.marginTop="1rem"
-        
        
     } 
 }
@@ -173,6 +171,16 @@ function handleScreenSizeChange(event) {
 // Sayfa yüklendiğinde medya sorgusunun mevcut durumunu kontrol edin
 handleScreenSizeChange(mediaQuery);
 mediaQuery.addEventListener(handleScreenSizeChange);
+
+
+
+
+
+
+
+
+
+
 
 
 
