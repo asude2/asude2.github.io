@@ -39,18 +39,16 @@ body{
 }
 
 .icon1:hover{
-    opacity:0.8;
+    opacity:0.5;
 }
 
-.icon1:active{
-    font-size: 2.1rem;
-}
+
 
 .baslik2{
-    padding-left:10rem;
-    padding-top:10rem;
+    margin-left:5rem;
+    margin-top:6rem;
     opacity:0.4;
-    font-size:3rem;
+    font-size:4rem;
 }
 
 .text1{
@@ -124,7 +122,5 @@ a:active{
 .show{
     display: flex !important;
 }
-
-
 
 
